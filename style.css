@@ -8,11 +8,11 @@
 
 .container{
     width: 100%;
-    /*height: 100vh;*/
-    background-image: url("images/back.jpg");
-    background-size: contain;
+    height: 100vh;
+    background-size: cover;
     padding: 0 8%;
     position: relative;
+    background: linear-gradient(rgba(#68344f, .75), rgba(#73003c, .85)) url("images/back.jpg") center;
 }
 
 .logo{
